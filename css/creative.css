@@ -187,6 +187,12 @@ header .video-container {
   height: 100vh;
 }
 
+@media(max-width:768px) {
+  header .video-container {
+    background-image: url("video/WebLanding.jpg");
+  }
+}
+
 header .header-content {
     position: relative;
     width: 100%;
