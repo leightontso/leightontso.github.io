@@ -189,7 +189,11 @@ header .video-container {
 
 @media(max-width:768px) {
   header .video-container {
-    background-image: url("video/WebLanding.jpg");
+    display: none;
+  }
+
+  header {
+    background-image: url("../video/WebLanding.jpg") !important;
   }
 }
 
