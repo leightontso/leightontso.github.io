@@ -178,6 +178,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
+    -webkit-transform: translateZ(0);
 }
 
 header .video-container {
